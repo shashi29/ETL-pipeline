@@ -3,3 +3,4 @@ fuzzywuzzy
 pandas
 python-Levenshtein
 sqlalchemy
+unittest

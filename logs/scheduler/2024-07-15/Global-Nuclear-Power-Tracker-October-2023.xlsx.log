@@ -313,3 +313,128 @@
 [2024-07-15T04:57:30.297+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:57:30.297+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
 [2024-07-15T04:57:30.299+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
 [2024-07-15T04:57:30.310+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx took 0.022 seconds
+[2024-07-15T04:58:01.029+0000] {processor.py:161} INFO - Started process (PID=640) to work on /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-15T04:58:01.031+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx for tasks to queue
+[2024-07-15T04:58:01.033+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:58:01.033+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-15T04:58:01.034+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-15T04:58:01.048+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx took 0.034 seconds
+[2024-07-15T04:58:31.920+0000] {processor.py:161} INFO - Started process (PID=701) to work on /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-15T04:58:31.921+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx for tasks to queue
+[2024-07-15T04:58:31.923+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:58:31.923+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-15T04:58:31.925+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-15T04:58:31.935+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx took 0.022 seconds
+[2024-07-15T04:59:02.258+0000] {processor.py:161} INFO - Started process (PID=762) to work on /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-15T04:59:02.259+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx for tasks to queue
+[2024-07-15T04:59:02.261+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:59:02.260+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-15T04:59:02.262+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-15T04:59:02.273+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx took 0.022 seconds
+[2024-07-15T04:59:32.797+0000] {processor.py:161} INFO - Started process (PID=823) to work on /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-15T04:59:32.800+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx for tasks to queue
+[2024-07-15T04:59:32.808+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:59:32.807+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-15T04:59:32.812+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-15T04:59:32.838+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx took 0.095 seconds
+[2024-07-15T05:00:03.175+0000] {processor.py:161} INFO - Started process (PID=885) to work on /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-15T05:00:03.176+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx for tasks to queue
+[2024-07-15T05:00:03.178+0000] {logging_mixin.py:188} INFO - [2024-07-15T05:00:03.177+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-15T05:00:03.179+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-15T05:00:03.190+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx took 0.021 seconds
+[2024-07-15T05:00:33.677+0000] {processor.py:161} INFO - Started process (PID=947) to work on /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-15T05:00:33.678+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx for tasks to queue
+[2024-07-15T05:00:33.679+0000] {logging_mixin.py:188} INFO - [2024-07-15T05:00:33.679+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-15T05:00:33.681+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-15T05:00:33.691+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx took 0.021 seconds
+[2024-07-15T05:01:03.741+0000] {processor.py:161} INFO - Started process (PID=1008) to work on /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-15T05:01:03.743+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx for tasks to queue
+[2024-07-15T05:01:03.744+0000] {logging_mixin.py:188} INFO - [2024-07-15T05:01:03.744+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-15T05:01:03.746+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-15T05:01:03.768+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx took 0.033 seconds
+[2024-07-15T05:01:34.395+0000] {processor.py:161} INFO - Started process (PID=1069) to work on /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-15T05:01:34.396+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx for tasks to queue
+[2024-07-15T05:01:34.398+0000] {logging_mixin.py:188} INFO - [2024-07-15T05:01:34.397+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-15T05:01:34.399+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-15T05:01:34.410+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx took 0.021 seconds
+[2024-07-15T05:02:04.568+0000] {processor.py:161} INFO - Started process (PID=1130) to work on /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-15T05:02:04.568+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx for tasks to queue
+[2024-07-15T05:02:04.570+0000] {logging_mixin.py:188} INFO - [2024-07-15T05:02:04.570+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-15T05:02:04.571+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-15T05:02:04.583+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx took 0.021 seconds
+[2024-07-15T05:02:34.822+0000] {processor.py:161} INFO - Started process (PID=1191) to work on /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-15T05:02:34.823+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx for tasks to queue
+[2024-07-15T05:02:34.824+0000] {logging_mixin.py:188} INFO - [2024-07-15T05:02:34.824+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-15T05:02:34.826+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-15T05:02:34.837+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx took 0.021 seconds
+[2024-07-15T05:03:04.891+0000] {processor.py:161} INFO - Started process (PID=1252) to work on /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-15T05:03:04.892+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx for tasks to queue
+[2024-07-15T05:03:04.894+0000] {logging_mixin.py:188} INFO - [2024-07-15T05:03:04.894+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-15T05:03:04.896+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-15T05:03:04.906+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx took 0.021 seconds
+[2024-07-15T05:03:35.695+0000] {processor.py:161} INFO - Started process (PID=1313) to work on /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-15T05:03:35.696+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx for tasks to queue
+[2024-07-15T05:03:35.704+0000] {logging_mixin.py:188} INFO - [2024-07-15T05:03:35.704+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-15T05:03:35.707+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-15T05:03:35.732+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx took 0.064 seconds
+[2024-07-15T05:04:06.382+0000] {processor.py:161} INFO - Started process (PID=1373) to work on /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-15T05:04:06.383+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx for tasks to queue
+[2024-07-15T05:04:06.385+0000] {logging_mixin.py:188} INFO - [2024-07-15T05:04:06.385+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-15T05:04:06.387+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-15T05:04:06.405+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx took 0.029 seconds
+[2024-07-15T05:04:37.105+0000] {processor.py:161} INFO - Started process (PID=1434) to work on /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-15T05:04:37.107+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx for tasks to queue
+[2024-07-15T05:04:37.108+0000] {logging_mixin.py:188} INFO - [2024-07-15T05:04:37.108+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-15T05:04:37.110+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-15T05:04:37.128+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx took 0.029 seconds
+[2024-07-15T05:05:07.532+0000] {processor.py:161} INFO - Started process (PID=1495) to work on /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-15T05:05:07.532+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx for tasks to queue
+[2024-07-15T05:05:07.534+0000] {logging_mixin.py:188} INFO - [2024-07-15T05:05:07.534+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-15T05:05:07.536+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-15T05:05:07.547+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx took 0.021 seconds
+[2024-07-15T05:05:37.982+0000] {processor.py:161} INFO - Started process (PID=1556) to work on /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-15T05:05:37.983+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx for tasks to queue
+[2024-07-15T05:05:37.984+0000] {logging_mixin.py:188} INFO - [2024-07-15T05:05:37.984+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-15T05:05:37.986+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-15T05:05:38.005+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx took 0.029 seconds
+[2024-07-15T05:06:08.067+0000] {processor.py:161} INFO - Started process (PID=1616) to work on /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-15T05:06:08.068+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx for tasks to queue
+[2024-07-15T05:06:08.069+0000] {logging_mixin.py:188} INFO - [2024-07-15T05:06:08.069+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-15T05:06:08.071+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-15T05:06:08.082+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx took 0.021 seconds
+[2024-07-15T05:06:38.376+0000] {processor.py:161} INFO - Started process (PID=1677) to work on /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-15T05:06:38.377+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx for tasks to queue
+[2024-07-15T05:06:38.379+0000] {logging_mixin.py:188} INFO - [2024-07-15T05:06:38.378+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-15T05:06:38.380+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-15T05:06:38.391+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx took 0.021 seconds
+[2024-07-15T05:07:09.016+0000] {processor.py:161} INFO - Started process (PID=1740) to work on /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-15T05:07:09.017+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx for tasks to queue
+[2024-07-15T05:07:09.019+0000] {logging_mixin.py:188} INFO - [2024-07-15T05:07:09.018+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-15T05:07:09.020+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-15T05:07:09.032+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx took 0.022 seconds
+[2024-07-15T05:07:39.720+0000] {processor.py:161} INFO - Started process (PID=1802) to work on /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-15T05:07:39.721+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx for tasks to queue
+[2024-07-15T05:07:39.723+0000] {logging_mixin.py:188} INFO - [2024-07-15T05:07:39.722+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-15T05:07:39.732+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-15T05:07:39.768+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx took 0.067 seconds
+[2024-07-15T05:08:10.134+0000] {processor.py:161} INFO - Started process (PID=1863) to work on /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-15T05:08:10.135+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx for tasks to queue
+[2024-07-15T05:08:10.140+0000] {logging_mixin.py:188} INFO - [2024-07-15T05:08:10.140+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-15T05:08:10.142+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-15T05:08:10.156+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx took 0.029 seconds
+[2024-07-15T05:08:40.929+0000] {processor.py:161} INFO - Started process (PID=1924) to work on /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-15T05:08:40.930+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx for tasks to queue
+[2024-07-15T05:08:40.932+0000] {logging_mixin.py:188} INFO - [2024-07-15T05:08:40.931+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-15T05:08:40.934+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-15T05:08:40.945+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx took 0.021 seconds
+[2024-07-15T05:09:11.247+0000] {processor.py:161} INFO - Started process (PID=1985) to work on /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-15T05:09:11.248+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx for tasks to queue
+[2024-07-15T05:09:11.250+0000] {logging_mixin.py:188} INFO - [2024-07-15T05:09:11.250+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-15T05:09:11.252+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-15T05:09:11.263+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx took 0.022 seconds
+[2024-07-15T05:09:41.511+0000] {processor.py:161} INFO - Started process (PID=2047) to work on /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-15T05:09:41.512+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx for tasks to queue
+[2024-07-15T05:09:41.514+0000] {logging_mixin.py:188} INFO - [2024-07-15T05:09:41.513+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-15T05:09:41.515+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-15T05:09:41.526+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx took 0.021 seconds
+[2024-07-15T05:10:11.871+0000] {processor.py:161} INFO - Started process (PID=2107) to work on /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-15T05:10:11.872+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx for tasks to queue
+[2024-07-15T05:10:11.874+0000] {logging_mixin.py:188} INFO - [2024-07-15T05:10:11.874+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-15T05:10:11.876+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-15T05:10:11.887+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx took 0.022 seconds
