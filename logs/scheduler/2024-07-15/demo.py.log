@@ -1,0 +1,600 @@
+[2024-07-15T04:25:15.679+0000] {processor.py:161} INFO - Started process (PID=29) to work on /opt/airflow/dags/demo.py
+[2024-07-15T04:25:15.684+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/demo.py for tasks to queue
+[2024-07-15T04:25:15.687+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:25:15.687+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/demo.py
+[2024-07-15T04:25:18.909+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/fuzzywuzzy/fuzz.py:11 UserWarning: Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning
+[2024-07-15T04:25:18.919+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/demo.py
+[2024-07-15T04:25:19.644+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:25:19.643+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-15T04:25:19.718+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:25:19.718+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline to 2024-07-15 00:00:00+00:00, run_after=2024-07-16 00:00:00+00:00
+[2024-07-15T04:25:19.795+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/demo.py took 4.146 seconds
+[2024-07-15T04:25:50.701+0000] {processor.py:161} INFO - Started process (PID=98) to work on /opt/airflow/dags/demo.py
+[2024-07-15T04:25:50.704+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/demo.py for tasks to queue
+[2024-07-15T04:25:50.706+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:25:50.705+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/demo.py
+[2024-07-15T04:25:51.303+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/fuzzywuzzy/fuzz.py:11 UserWarning: Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning
+[2024-07-15T04:25:51.306+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/demo.py
+[2024-07-15T04:25:51.335+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:25:51.334+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-15T04:25:51.368+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:25:51.367+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline to 2024-07-15 00:00:00+00:00, run_after=2024-07-16 00:00:00+00:00
+[2024-07-15T04:25:51.403+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/demo.py took 0.708 seconds
+[2024-07-15T04:26:22.142+0000] {processor.py:161} INFO - Started process (PID=162) to work on /opt/airflow/dags/demo.py
+[2024-07-15T04:26:22.142+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/demo.py for tasks to queue
+[2024-07-15T04:26:22.144+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:26:22.144+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/demo.py
+[2024-07-15T04:26:22.818+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/fuzzywuzzy/fuzz.py:11 UserWarning: Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning
+[2024-07-15T04:26:22.822+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/demo.py
+[2024-07-15T04:26:22.842+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:26:22.842+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-15T04:26:22.865+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:26:22.865+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline to 2024-07-15 00:00:00+00:00, run_after=2024-07-16 00:00:00+00:00
+[2024-07-15T04:26:22.887+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/demo.py took 0.751 seconds
+[2024-07-15T04:26:53.324+0000] {processor.py:161} INFO - Started process (PID=224) to work on /opt/airflow/dags/demo.py
+[2024-07-15T04:26:53.325+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/demo.py for tasks to queue
+[2024-07-15T04:26:53.327+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:26:53.326+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/demo.py
+[2024-07-15T04:26:53.872+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/fuzzywuzzy/fuzz.py:11 UserWarning: Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning
+[2024-07-15T04:26:53.876+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/demo.py
+[2024-07-15T04:26:53.895+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:26:53.895+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-15T04:26:53.914+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:26:53.914+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline to 2024-07-15 00:00:00+00:00, run_after=2024-07-16 00:00:00+00:00
+[2024-07-15T04:26:53.933+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/demo.py took 0.623 seconds
+[2024-07-15T04:27:24.184+0000] {processor.py:161} INFO - Started process (PID=285) to work on /opt/airflow/dags/demo.py
+[2024-07-15T04:27:24.185+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/demo.py for tasks to queue
+[2024-07-15T04:27:24.187+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:27:24.187+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/demo.py
+[2024-07-15T04:27:24.839+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/fuzzywuzzy/fuzz.py:11 UserWarning: Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning
+[2024-07-15T04:27:24.843+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/demo.py
+[2024-07-15T04:27:24.861+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:27:24.861+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-15T04:27:24.882+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:27:24.881+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline to 2024-07-15 00:00:00+00:00, run_after=2024-07-16 00:00:00+00:00
+[2024-07-15T04:27:24.904+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/demo.py took 0.726 seconds
+[2024-07-15T04:27:54.994+0000] {processor.py:161} INFO - Started process (PID=350) to work on /opt/airflow/dags/demo.py
+[2024-07-15T04:27:55.002+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/demo.py for tasks to queue
+[2024-07-15T04:27:55.004+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:27:55.004+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/demo.py
+[2024-07-15T04:27:56.788+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/fuzzywuzzy/fuzz.py:11 UserWarning: Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning
+[2024-07-15T04:27:56.792+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/demo.py
+[2024-07-15T04:27:56.847+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:27:56.846+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-15T04:27:56.975+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:27:56.974+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline to 2024-07-15 00:00:00+00:00, run_after=2024-07-16 00:00:00+00:00
+[2024-07-15T04:27:57.047+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/demo.py took 2.067 seconds
+[2024-07-15T04:28:27.829+0000] {processor.py:161} INFO - Started process (PID=420) to work on /opt/airflow/dags/demo.py
+[2024-07-15T04:28:27.831+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/demo.py for tasks to queue
+[2024-07-15T04:28:27.832+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:28:27.832+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/demo.py
+[2024-07-15T04:28:29.435+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/fuzzywuzzy/fuzz.py:11 UserWarning: Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning
+[2024-07-15T04:28:29.440+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/demo.py
+[2024-07-15T04:28:29.476+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:28:29.476+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-15T04:28:29.528+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:28:29.527+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline to 2024-07-15 00:00:00+00:00, run_after=2024-07-16 00:00:00+00:00
+[2024-07-15T04:28:29.566+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/demo.py took 1.748 seconds
+[2024-07-15T04:28:59.976+0000] {processor.py:161} INFO - Started process (PID=484) to work on /opt/airflow/dags/demo.py
+[2024-07-15T04:28:59.977+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/demo.py for tasks to queue
+[2024-07-15T04:28:59.979+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:28:59.979+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/demo.py
+[2024-07-15T04:29:00.659+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/fuzzywuzzy/fuzz.py:11 UserWarning: Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning
+[2024-07-15T04:29:00.663+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/demo.py
+[2024-07-15T04:29:00.725+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:29:00.724+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-15T04:29:00.764+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:29:00.764+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline to 2024-07-15 00:00:00+00:00, run_after=2024-07-16 00:00:00+00:00
+[2024-07-15T04:29:00.813+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/demo.py took 0.848 seconds
+[2024-07-15T04:29:31.052+0000] {processor.py:161} INFO - Started process (PID=550) to work on /opt/airflow/dags/demo.py
+[2024-07-15T04:29:31.053+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/demo.py for tasks to queue
+[2024-07-15T04:29:31.055+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:29:31.054+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/demo.py
+[2024-07-15T04:29:31.454+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/fuzzywuzzy/fuzz.py:11 UserWarning: Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning
+[2024-07-15T04:29:31.456+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/demo.py
+[2024-07-15T04:29:31.476+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:29:31.476+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-15T04:29:31.490+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:29:31.490+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline to 2024-07-15 00:00:00+00:00, run_after=2024-07-16 00:00:00+00:00
+[2024-07-15T04:29:31.508+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/demo.py took 0.466 seconds
+[2024-07-15T04:30:02.427+0000] {processor.py:161} INFO - Started process (PID=612) to work on /opt/airflow/dags/demo.py
+[2024-07-15T04:30:02.428+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/demo.py for tasks to queue
+[2024-07-15T04:30:02.430+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:30:02.430+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/demo.py
+[2024-07-15T04:30:02.966+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/fuzzywuzzy/fuzz.py:11 UserWarning: Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning
+[2024-07-15T04:30:02.969+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/demo.py
+[2024-07-15T04:30:02.988+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:30:02.987+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-15T04:30:03.008+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:30:03.008+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline to 2024-07-15 00:00:00+00:00, run_after=2024-07-16 00:00:00+00:00
+[2024-07-15T04:30:03.033+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/demo.py took 0.612 seconds
+[2024-07-15T04:30:33.146+0000] {processor.py:161} INFO - Started process (PID=677) to work on /opt/airflow/dags/demo.py
+[2024-07-15T04:30:33.147+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/demo.py for tasks to queue
+[2024-07-15T04:30:33.149+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:30:33.148+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/demo.py
+[2024-07-15T04:30:34.305+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/fuzzywuzzy/fuzz.py:11 UserWarning: Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning
+[2024-07-15T04:30:34.309+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/demo.py
+[2024-07-15T04:30:34.347+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:30:34.347+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-15T04:30:34.367+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:30:34.367+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline to 2024-07-15 00:00:00+00:00, run_after=2024-07-16 00:00:00+00:00
+[2024-07-15T04:30:34.387+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/demo.py took 1.247 seconds
+[2024-07-15T04:31:05.168+0000] {processor.py:161} INFO - Started process (PID=742) to work on /opt/airflow/dags/demo.py
+[2024-07-15T04:31:05.169+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/demo.py for tasks to queue
+[2024-07-15T04:31:05.171+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:31:05.170+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/demo.py
+[2024-07-15T04:31:05.615+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/fuzzywuzzy/fuzz.py:11 UserWarning: Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning
+[2024-07-15T04:31:05.618+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/demo.py
+[2024-07-15T04:31:05.631+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:31:05.631+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-15T04:31:05.645+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:31:05.645+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline to 2024-07-15 00:00:00+00:00, run_after=2024-07-16 00:00:00+00:00
+[2024-07-15T04:31:05.662+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/demo.py took 0.500 seconds
+[2024-07-15T04:31:35.797+0000] {processor.py:161} INFO - Started process (PID=805) to work on /opt/airflow/dags/demo.py
+[2024-07-15T04:31:35.797+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/demo.py for tasks to queue
+[2024-07-15T04:31:35.799+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:31:35.798+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/demo.py
+[2024-07-15T04:31:36.243+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/fuzzywuzzy/fuzz.py:11 UserWarning: Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning
+[2024-07-15T04:31:36.246+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/demo.py
+[2024-07-15T04:31:36.260+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:31:36.260+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-15T04:31:36.274+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:31:36.274+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline to 2024-07-15 00:00:00+00:00, run_after=2024-07-16 00:00:00+00:00
+[2024-07-15T04:31:36.293+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/demo.py took 0.502 seconds
+[2024-07-15T04:32:06.379+0000] {processor.py:161} INFO - Started process (PID=867) to work on /opt/airflow/dags/demo.py
+[2024-07-15T04:32:06.380+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/demo.py for tasks to queue
+[2024-07-15T04:32:06.381+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:32:06.381+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/demo.py
+[2024-07-15T04:32:06.801+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/fuzzywuzzy/fuzz.py:11 UserWarning: Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning
+[2024-07-15T04:32:06.803+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/demo.py
+[2024-07-15T04:32:06.817+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:32:06.817+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-15T04:32:06.831+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:32:06.831+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline to 2024-07-15 00:00:00+00:00, run_after=2024-07-16 00:00:00+00:00
+[2024-07-15T04:32:06.851+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/demo.py took 0.476 seconds
+[2024-07-15T04:32:36.975+0000] {processor.py:161} INFO - Started process (PID=929) to work on /opt/airflow/dags/demo.py
+[2024-07-15T04:32:36.976+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/demo.py for tasks to queue
+[2024-07-15T04:32:36.978+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:32:36.977+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/demo.py
+[2024-07-15T04:32:37.372+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/fuzzywuzzy/fuzz.py:11 UserWarning: Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning
+[2024-07-15T04:32:37.374+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/demo.py
+[2024-07-15T04:32:37.393+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:32:37.392+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-15T04:32:37.408+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:32:37.407+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline to 2024-07-15 00:00:00+00:00, run_after=2024-07-16 00:00:00+00:00
+[2024-07-15T04:32:37.425+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/demo.py took 0.456 seconds
+[2024-07-15T04:33:07.740+0000] {processor.py:161} INFO - Started process (PID=988) to work on /opt/airflow/dags/demo.py
+[2024-07-15T04:33:07.748+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/demo.py for tasks to queue
+[2024-07-15T04:33:07.750+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:33:07.749+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/demo.py
+[2024-07-15T04:33:09.312+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/fuzzywuzzy/fuzz.py:11 UserWarning: Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning
+[2024-07-15T04:33:09.316+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/demo.py
+[2024-07-15T04:33:09.362+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:33:09.362+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-15T04:33:09.401+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:33:09.401+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline to 2024-07-15 00:00:00+00:00, run_after=2024-07-16 00:00:00+00:00
+[2024-07-15T04:33:09.439+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/demo.py took 1.726 seconds
+[2024-07-15T04:33:39.789+0000] {processor.py:161} INFO - Started process (PID=1052) to work on /opt/airflow/dags/demo.py
+[2024-07-15T04:33:39.790+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/demo.py for tasks to queue
+[2024-07-15T04:33:39.791+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:33:39.791+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/demo.py
+[2024-07-15T04:33:40.239+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/fuzzywuzzy/fuzz.py:11 UserWarning: Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning
+[2024-07-15T04:33:40.242+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/demo.py
+[2024-07-15T04:33:40.260+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:33:40.260+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-15T04:33:40.274+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:33:40.274+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline to 2024-07-15 00:00:00+00:00, run_after=2024-07-16 00:00:00+00:00
+[2024-07-15T04:33:40.292+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/demo.py took 0.509 seconds
+[2024-07-15T04:33:57.053+0000] {processor.py:161} INFO - Started process (PID=1075) to work on /opt/airflow/dags/demo.py
+[2024-07-15T04:33:57.054+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/demo.py for tasks to queue
+[2024-07-15T04:33:57.056+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:33:57.055+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/demo.py
+[2024-07-15T04:33:58.061+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/fuzzywuzzy/fuzz.py:11 UserWarning: Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning
+[2024-07-15T04:33:58.065+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/demo.py
+[2024-07-15T04:33:58.093+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:33:58.093+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-15T04:33:58.117+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:33:58.116+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline to 2024-07-15 00:00:00+00:00, run_after=2024-07-16 00:00:00+00:00
+[2024-07-15T04:33:58.140+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/demo.py took 1.102 seconds
+[2024-07-15T04:34:29.125+0000] {processor.py:161} INFO - Started process (PID=1145) to work on /opt/airflow/dags/demo.py
+[2024-07-15T04:34:29.126+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/demo.py for tasks to queue
+[2024-07-15T04:34:29.128+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:34:29.128+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/demo.py
+[2024-07-15T04:34:29.879+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/fuzzywuzzy/fuzz.py:11 UserWarning: Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning
+[2024-07-15T04:34:29.883+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/demo.py
+[2024-07-15T04:34:30.017+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:34:30.016+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-15T04:34:30.036+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:34:30.036+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline to 2024-07-15 00:00:00+00:00, run_after=2024-07-16 00:00:00+00:00
+[2024-07-15T04:34:30.060+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/demo.py took 0.945 seconds
+[2024-07-15T04:35:00.120+0000] {processor.py:161} INFO - Started process (PID=1207) to work on /opt/airflow/dags/demo.py
+[2024-07-15T04:35:00.121+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/demo.py for tasks to queue
+[2024-07-15T04:35:00.122+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:35:00.122+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/demo.py
+[2024-07-15T04:35:00.544+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/fuzzywuzzy/fuzz.py:11 UserWarning: Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning
+[2024-07-15T04:35:00.547+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/demo.py
+[2024-07-15T04:35:00.560+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:35:00.560+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-15T04:35:00.573+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:35:00.573+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline to 2024-07-15 00:00:00+00:00, run_after=2024-07-16 00:00:00+00:00
+[2024-07-15T04:35:00.590+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/demo.py took 0.477 seconds
+[2024-07-15T04:35:31.208+0000] {processor.py:161} INFO - Started process (PID=1268) to work on /opt/airflow/dags/demo.py
+[2024-07-15T04:35:31.208+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/demo.py for tasks to queue
+[2024-07-15T04:35:31.210+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:35:31.210+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/demo.py
+[2024-07-15T04:35:31.675+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/fuzzywuzzy/fuzz.py:11 UserWarning: Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning
+[2024-07-15T04:35:31.678+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/demo.py
+[2024-07-15T04:35:31.692+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:35:31.692+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-15T04:35:31.706+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:35:31.706+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline to 2024-07-15 00:00:00+00:00, run_after=2024-07-16 00:00:00+00:00
+[2024-07-15T04:35:31.723+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/demo.py took 0.530 seconds
+[2024-07-15T04:36:02.227+0000] {processor.py:161} INFO - Started process (PID=1331) to work on /opt/airflow/dags/demo.py
+[2024-07-15T04:36:02.229+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/demo.py for tasks to queue
+[2024-07-15T04:36:02.241+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:36:02.240+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/demo.py
+[2024-07-15T04:36:03.572+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/fuzzywuzzy/fuzz.py:11 UserWarning: Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning
+[2024-07-15T04:36:03.587+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/demo.py
+[2024-07-15T04:36:03.620+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:36:03.620+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-15T04:36:03.657+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:36:03.656+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline to 2024-07-15 00:00:00+00:00, run_after=2024-07-16 00:00:00+00:00
+[2024-07-15T04:36:03.678+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/demo.py took 1.479 seconds
+[2024-07-15T04:36:34.266+0000] {processor.py:161} INFO - Started process (PID=1394) to work on /opt/airflow/dags/demo.py
+[2024-07-15T04:36:34.267+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/demo.py for tasks to queue
+[2024-07-15T04:36:34.268+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:36:34.268+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/demo.py
+[2024-07-15T04:36:35.162+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/fuzzywuzzy/fuzz.py:11 UserWarning: Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning
+[2024-07-15T04:36:35.173+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/demo.py
+[2024-07-15T04:36:35.199+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:36:35.198+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-15T04:36:35.237+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:36:35.236+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline to 2024-07-15 00:00:00+00:00, run_after=2024-07-16 00:00:00+00:00
+[2024-07-15T04:36:35.272+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/demo.py took 1.021 seconds
+[2024-07-15T04:37:05.869+0000] {processor.py:161} INFO - Started process (PID=1456) to work on /opt/airflow/dags/demo.py
+[2024-07-15T04:37:05.870+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/demo.py for tasks to queue
+[2024-07-15T04:37:05.872+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:37:05.872+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/demo.py
+[2024-07-15T04:37:06.255+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/fuzzywuzzy/fuzz.py:11 UserWarning: Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning
+[2024-07-15T04:37:06.257+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/demo.py
+[2024-07-15T04:37:06.271+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:37:06.270+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-15T04:37:06.285+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:37:06.285+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline to 2024-07-15 00:00:00+00:00, run_after=2024-07-16 00:00:00+00:00
+[2024-07-15T04:37:06.303+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/demo.py took 0.441 seconds
+[2024-07-15T04:37:25.798+0000] {processor.py:161} INFO - Started process (PID=1500) to work on /opt/airflow/dags/demo.py
+[2024-07-15T04:37:25.799+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/demo.py for tasks to queue
+[2024-07-15T04:37:25.803+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:37:25.803+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/demo.py
+[2024-07-15T04:37:26.349+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/fuzzywuzzy/fuzz.py:11 UserWarning: Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning
+[2024-07-15T04:37:26.352+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/demo.py
+[2024-07-15T04:37:26.430+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:37:26.429+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-15T04:37:26.443+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:37:26.443+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline to 2024-07-15 00:00:00+00:00, run_after=2024-07-16 00:00:00+00:00
+[2024-07-15T04:37:26.464+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/demo.py took 0.672 seconds
+[2024-07-15T04:37:31.525+0000] {processor.py:161} INFO - Started process (PID=1509) to work on /opt/airflow/dags/demo.py
+[2024-07-15T04:37:31.526+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/demo.py for tasks to queue
+[2024-07-15T04:37:31.528+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:37:31.528+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/demo.py
+[2024-07-15T04:37:32.019+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/fuzzywuzzy/fuzz.py:11 UserWarning: Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning
+[2024-07-15T04:37:32.022+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/demo.py
+[2024-07-15T04:37:32.029+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:37:32.029+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-15T04:37:32.045+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:37:32.045+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline to 2024-07-15 00:00:00+00:00, run_after=2024-07-16 00:00:00+00:00
+[2024-07-15T04:37:32.064+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/demo.py took 0.545 seconds
+[2024-07-15T04:38:02.108+0000] {processor.py:161} INFO - Started process (PID=1570) to work on /opt/airflow/dags/demo.py
+[2024-07-15T04:38:02.109+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/demo.py for tasks to queue
+[2024-07-15T04:38:02.110+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:38:02.110+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/demo.py
+[2024-07-15T04:38:02.894+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/fuzzywuzzy/fuzz.py:11 UserWarning: Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning
+[2024-07-15T04:38:02.904+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/demo.py
+[2024-07-15T04:38:03.021+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:38:03.020+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-15T04:38:03.043+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:38:03.043+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline to 2024-07-15 00:00:00+00:00, run_after=2024-07-16 00:00:00+00:00
+[2024-07-15T04:38:03.064+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/demo.py took 0.966 seconds
+[2024-07-15T04:38:33.884+0000] {processor.py:161} INFO - Started process (PID=1633) to work on /opt/airflow/dags/demo.py
+[2024-07-15T04:38:33.892+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/demo.py for tasks to queue
+[2024-07-15T04:38:33.896+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:38:33.896+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/demo.py
+[2024-07-15T04:38:35.053+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/fuzzywuzzy/fuzz.py:11 UserWarning: Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning
+[2024-07-15T04:38:35.067+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/demo.py
+[2024-07-15T04:38:35.100+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:38:35.100+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-15T04:38:35.141+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:38:35.140+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline to 2024-07-15 00:00:00+00:00, run_after=2024-07-16 00:00:00+00:00
+[2024-07-15T04:38:35.243+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/demo.py took 1.369 seconds
+[2024-07-15T04:39:05.381+0000] {processor.py:161} INFO - Started process (PID=1695) to work on /opt/airflow/dags/demo.py
+[2024-07-15T04:39:05.382+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/demo.py for tasks to queue
+[2024-07-15T04:39:05.383+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:39:05.383+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/demo.py
+[2024-07-15T04:39:06.472+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/fuzzywuzzy/fuzz.py:11 UserWarning: Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning
+[2024-07-15T04:39:06.479+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/demo.py
+[2024-07-15T04:39:06.511+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:39:06.510+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-15T04:39:06.545+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:39:06.544+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline to 2024-07-15 00:00:00+00:00, run_after=2024-07-16 00:00:00+00:00
+[2024-07-15T04:39:06.645+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/demo.py took 1.277 seconds
+[2024-07-15T04:39:37.204+0000] {processor.py:161} INFO - Started process (PID=1759) to work on /opt/airflow/dags/demo.py
+[2024-07-15T04:39:37.215+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/demo.py for tasks to queue
+[2024-07-15T04:39:37.217+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:39:37.217+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/demo.py
+[2024-07-15T04:39:38.470+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/fuzzywuzzy/fuzz.py:11 UserWarning: Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning
+[2024-07-15T04:39:38.475+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/demo.py
+[2024-07-15T04:39:38.499+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:39:38.499+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-15T04:39:38.520+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:39:38.520+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline to 2024-07-15 00:00:00+00:00, run_after=2024-07-16 00:00:00+00:00
+[2024-07-15T04:39:38.545+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/demo.py took 1.348 seconds
+[2024-07-15T04:40:08.899+0000] {processor.py:161} INFO - Started process (PID=1823) to work on /opt/airflow/dags/demo.py
+[2024-07-15T04:40:08.903+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/demo.py for tasks to queue
+[2024-07-15T04:40:08.906+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:40:08.906+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/demo.py
+[2024-07-15T04:40:11.206+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/fuzzywuzzy/fuzz.py:11 UserWarning: Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning
+[2024-07-15T04:40:11.256+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/demo.py
+[2024-07-15T04:40:11.311+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:40:11.311+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-15T04:40:11.380+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:40:11.380+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline to 2024-07-15 00:00:00+00:00, run_after=2024-07-16 00:00:00+00:00
+[2024-07-15T04:40:11.623+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/demo.py took 2.855 seconds
+[2024-07-15T04:40:42.264+0000] {processor.py:161} INFO - Started process (PID=1885) to work on /opt/airflow/dags/demo.py
+[2024-07-15T04:40:42.265+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/demo.py for tasks to queue
+[2024-07-15T04:40:42.267+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:40:42.266+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/demo.py
+[2024-07-15T04:40:43.496+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/fuzzywuzzy/fuzz.py:11 UserWarning: Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning
+[2024-07-15T04:40:43.504+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/demo.py
+[2024-07-15T04:40:43.553+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:40:43.552+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-15T04:40:43.630+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:40:43.630+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline to 2024-07-15 00:00:00+00:00, run_after=2024-07-16 00:00:00+00:00
+[2024-07-15T04:40:43.736+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/demo.py took 1.477 seconds
+[2024-07-15T04:41:12.164+0000] {processor.py:161} INFO - Started process (PID=1946) to work on /opt/airflow/dags/demo.py
+[2024-07-15T04:41:12.165+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/demo.py for tasks to queue
+[2024-07-15T04:41:12.166+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:41:12.166+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/demo.py
+[2024-07-15T04:41:12.517+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/fuzzywuzzy/fuzz.py:11 UserWarning: Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning
+[2024-07-15T04:41:12.521+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/demo.py
+[2024-07-15T04:41:12.538+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:41:12.537+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-15T04:41:12.555+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:41:12.555+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline to 2024-07-15 00:00:00+00:00, run_after=2024-07-16 00:00:00+00:00
+[2024-07-15T04:41:12.584+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/demo.py took 0.424 seconds
+[2024-07-15T04:41:13.234+0000] {processor.py:161} INFO - Started process (PID=1948) to work on /opt/airflow/dags/demo.py
+[2024-07-15T04:41:13.235+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/demo.py for tasks to queue
+[2024-07-15T04:41:13.236+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:41:13.236+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/demo.py
+[2024-07-15T04:41:13.495+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/fuzzywuzzy/fuzz.py:11 UserWarning: Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning
+[2024-07-15T04:41:13.498+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/demo.py
+[2024-07-15T04:41:13.514+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:41:13.513+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-15T04:41:13.541+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:41:13.541+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline to 2024-07-15 00:00:00+00:00, run_after=2024-07-16 00:00:00+00:00
+[2024-07-15T04:41:13.564+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/demo.py took 0.343 seconds
+[2024-07-15T04:41:44.453+0000] {processor.py:161} INFO - Started process (PID=2010) to work on /opt/airflow/dags/demo.py
+[2024-07-15T04:41:44.454+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/demo.py for tasks to queue
+[2024-07-15T04:41:44.455+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:41:44.455+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/demo.py
+[2024-07-15T04:41:44.723+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/fuzzywuzzy/fuzz.py:11 UserWarning: Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning
+[2024-07-15T04:41:44.726+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/demo.py
+[2024-07-15T04:41:44.742+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:41:44.741+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-15T04:41:44.758+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:41:44.758+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline to 2024-07-15 00:00:00+00:00, run_after=2024-07-16 00:00:00+00:00
+[2024-07-15T04:41:44.776+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/demo.py took 0.328 seconds
+[2024-07-15T04:41:57.708+0000] {processor.py:161} INFO - Started process (PID=2044) to work on /opt/airflow/dags/demo.py
+[2024-07-15T04:41:57.709+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/demo.py for tasks to queue
+[2024-07-15T04:41:57.711+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:41:57.710+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/demo.py
+[2024-07-15T04:41:58.529+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/fuzzywuzzy/fuzz.py:11 UserWarning: Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning
+[2024-07-15T04:41:58.534+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/demo.py
+[2024-07-15T04:41:58.651+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:41:58.650+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-15T04:41:58.666+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:41:58.666+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline to 2024-07-15 00:00:00+00:00, run_after=2024-07-16 00:00:00+00:00
+[2024-07-15T04:41:58.686+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/demo.py took 0.987 seconds
+[2024-07-15T04:42:29.030+0000] {processor.py:161} INFO - Started process (PID=2106) to work on /opt/airflow/dags/demo.py
+[2024-07-15T04:42:29.035+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/demo.py for tasks to queue
+[2024-07-15T04:42:29.040+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:42:29.037+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/demo.py
+[2024-07-15T04:42:30.470+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/fuzzywuzzy/fuzz.py:11 UserWarning: Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning
+[2024-07-15T04:42:30.491+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/demo.py
+[2024-07-15T04:42:30.544+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:42:30.544+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-15T04:42:30.598+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:42:30.596+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline to 2024-07-15 00:00:00+00:00, run_after=2024-07-16 00:00:00+00:00
+[2024-07-15T04:42:30.656+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/demo.py took 1.638 seconds
+[2024-07-15T04:43:00.870+0000] {processor.py:161} INFO - Started process (PID=2175) to work on /opt/airflow/dags/demo.py
+[2024-07-15T04:43:00.873+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/demo.py for tasks to queue
+[2024-07-15T04:43:00.882+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:43:00.881+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/demo.py
+[2024-07-15T04:43:01.524+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/fuzzywuzzy/fuzz.py:11 UserWarning: Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning
+[2024-07-15T04:43:01.529+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/demo.py
+[2024-07-15T04:43:01.549+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:43:01.549+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-15T04:43:01.571+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:43:01.571+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline to 2024-07-15 00:00:00+00:00, run_after=2024-07-16 00:00:00+00:00
+[2024-07-15T04:43:01.593+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/demo.py took 0.765 seconds
+[2024-07-15T04:43:32.610+0000] {processor.py:161} INFO - Started process (PID=2238) to work on /opt/airflow/dags/demo.py
+[2024-07-15T04:43:32.620+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/demo.py for tasks to queue
+[2024-07-15T04:43:32.632+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:43:32.632+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/demo.py
+[2024-07-15T04:43:33.641+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/fuzzywuzzy/fuzz.py:11 UserWarning: Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning
+[2024-07-15T04:43:33.655+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/demo.py
+[2024-07-15T04:43:33.696+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:43:33.696+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-15T04:43:33.742+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:43:33.742+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline to 2024-07-15 00:00:00+00:00, run_after=2024-07-16 00:00:00+00:00
+[2024-07-15T04:43:33.783+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/demo.py took 1.180 seconds
+[2024-07-15T04:43:51.550+0000] {processor.py:161} INFO - Started process (PID=2265) to work on /opt/airflow/dags/demo.py
+[2024-07-15T04:43:51.551+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/demo.py for tasks to queue
+[2024-07-15T04:43:51.553+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:43:51.552+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/demo.py
+[2024-07-15T04:43:52.179+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/fuzzywuzzy/fuzz.py:11 UserWarning: Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning
+[2024-07-15T04:43:52.184+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/demo.py
+[2024-07-15T04:43:52.206+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:43:52.205+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-15T04:43:52.230+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:43:52.229+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline to 2024-07-15 00:00:00+00:00, run_after=2024-07-16 00:00:00+00:00
+[2024-07-15T04:43:52.260+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/demo.py took 0.717 seconds
+[2024-07-15T04:43:52.750+0000] {processor.py:161} INFO - Started process (PID=2269) to work on /opt/airflow/dags/demo.py
+[2024-07-15T04:43:52.751+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/demo.py for tasks to queue
+[2024-07-15T04:43:52.762+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:43:52.762+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/demo.py
+[2024-07-15T04:43:53.324+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/fuzzywuzzy/fuzz.py:11 UserWarning: Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning
+[2024-07-15T04:43:53.337+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/demo.py
+[2024-07-15T04:43:53.408+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:43:53.407+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-15T04:43:53.519+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:43:53.519+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline to 2024-07-15 00:00:00+00:00, run_after=2024-07-16 00:00:00+00:00
+[2024-07-15T04:43:53.574+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/demo.py took 0.833 seconds
+[2024-07-15T04:44:23.699+0000] {processor.py:161} INFO - Started process (PID=2330) to work on /opt/airflow/dags/demo.py
+[2024-07-15T04:44:23.700+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/demo.py for tasks to queue
+[2024-07-15T04:44:23.702+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:44:23.702+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/demo.py
+[2024-07-15T04:44:24.752+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/fuzzywuzzy/fuzz.py:11 UserWarning: Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning
+[2024-07-15T04:44:24.765+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/demo.py
+[2024-07-15T04:44:24.815+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:44:24.815+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-15T04:44:24.872+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:44:24.872+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline to 2024-07-15 00:00:00+00:00, run_after=2024-07-16 00:00:00+00:00
+[2024-07-15T04:44:24.910+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/demo.py took 1.224 seconds
+[2024-07-15T04:44:55.035+0000] {processor.py:161} INFO - Started process (PID=2397) to work on /opt/airflow/dags/demo.py
+[2024-07-15T04:44:55.036+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/demo.py for tasks to queue
+[2024-07-15T04:44:55.038+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:44:55.038+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/demo.py
+[2024-07-15T04:44:55.382+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/fuzzywuzzy/fuzz.py:11 UserWarning: Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning
+[2024-07-15T04:44:55.385+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/demo.py
+[2024-07-15T04:44:55.400+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:44:55.399+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-15T04:44:55.417+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:44:55.417+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline to 2024-07-15 00:00:00+00:00, run_after=2024-07-16 00:00:00+00:00
+[2024-07-15T04:44:55.438+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/demo.py took 0.411 seconds
+[2024-07-15T04:45:25.473+0000] {processor.py:161} INFO - Started process (PID=2458) to work on /opt/airflow/dags/demo.py
+[2024-07-15T04:45:25.474+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/demo.py for tasks to queue
+[2024-07-15T04:45:25.475+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:45:25.475+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/demo.py
+[2024-07-15T04:45:25.734+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/fuzzywuzzy/fuzz.py:11 UserWarning: Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning
+[2024-07-15T04:45:25.738+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/demo.py
+[2024-07-15T04:45:25.757+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:45:25.756+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-15T04:45:25.782+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:45:25.782+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline to 2024-07-15 00:00:00+00:00, run_after=2024-07-16 00:00:00+00:00
+[2024-07-15T04:45:25.806+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/demo.py took 0.337 seconds
+[2024-07-15T04:45:56.327+0000] {processor.py:161} INFO - Started process (PID=2519) to work on /opt/airflow/dags/demo.py
+[2024-07-15T04:45:56.352+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/demo.py for tasks to queue
+[2024-07-15T04:45:56.354+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:45:56.354+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/demo.py
+[2024-07-15T04:45:56.894+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/fuzzywuzzy/fuzz.py:11 UserWarning: Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning
+[2024-07-15T04:45:56.899+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/demo.py
+[2024-07-15T04:45:56.924+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:45:56.924+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-15T04:45:56.956+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:45:56.955+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline to 2024-07-15 00:00:00+00:00, run_after=2024-07-16 00:00:00+00:00
+[2024-07-15T04:45:56.979+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/demo.py took 0.676 seconds
+[2024-07-15T04:46:27.336+0000] {processor.py:161} INFO - Started process (PID=2579) to work on /opt/airflow/dags/demo.py
+[2024-07-15T04:46:27.337+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/demo.py for tasks to queue
+[2024-07-15T04:46:27.343+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:46:27.338+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/demo.py
+[2024-07-15T04:46:27.885+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/fuzzywuzzy/fuzz.py:11 UserWarning: Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning
+[2024-07-15T04:46:27.890+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/demo.py
+[2024-07-15T04:46:27.928+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:46:27.928+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-15T04:46:27.972+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:46:27.971+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline to 2024-07-15 00:00:00+00:00, run_after=2024-07-16 00:00:00+00:00
+[2024-07-15T04:46:28.008+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/demo.py took 0.689 seconds
+[2024-07-15T04:46:58.609+0000] {processor.py:161} INFO - Started process (PID=2642) to work on /opt/airflow/dags/demo.py
+[2024-07-15T04:46:58.613+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/demo.py for tasks to queue
+[2024-07-15T04:46:58.615+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:46:58.615+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/demo.py
+[2024-07-15T04:46:59.147+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/fuzzywuzzy/fuzz.py:11 UserWarning: Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning
+[2024-07-15T04:46:59.152+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/demo.py
+[2024-07-15T04:46:59.172+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:46:59.171+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-15T04:46:59.194+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:46:59.194+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline to 2024-07-15 00:00:00+00:00, run_after=2024-07-16 00:00:00+00:00
+[2024-07-15T04:46:59.218+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/demo.py took 0.617 seconds
+[2024-07-15T04:47:29.363+0000] {processor.py:161} INFO - Started process (PID=2706) to work on /opt/airflow/dags/demo.py
+[2024-07-15T04:47:29.364+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/demo.py for tasks to queue
+[2024-07-15T04:47:29.366+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:47:29.366+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/demo.py
+[2024-07-15T04:47:29.649+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/fuzzywuzzy/fuzz.py:11 UserWarning: Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning
+[2024-07-15T04:47:29.653+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/demo.py
+[2024-07-15T04:47:29.667+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:47:29.667+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-15T04:47:29.682+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:47:29.682+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline to 2024-07-15 00:00:00+00:00, run_after=2024-07-16 00:00:00+00:00
+[2024-07-15T04:47:29.701+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/demo.py took 0.344 seconds
+[2024-07-15T04:47:59.997+0000] {processor.py:161} INFO - Started process (PID=2769) to work on /opt/airflow/dags/demo.py
+[2024-07-15T04:47:59.998+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/demo.py for tasks to queue
+[2024-07-15T04:47:59.999+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:47:59.999+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/demo.py
+[2024-07-15T04:48:00.248+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/fuzzywuzzy/fuzz.py:11 UserWarning: Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning
+[2024-07-15T04:48:00.251+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/demo.py
+[2024-07-15T04:48:00.266+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:48:00.266+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-15T04:48:00.282+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:48:00.282+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline to 2024-07-15 00:00:00+00:00, run_after=2024-07-16 00:00:00+00:00
+[2024-07-15T04:48:00.301+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/demo.py took 0.308 seconds
+[2024-07-15T04:48:30.366+0000] {processor.py:161} INFO - Started process (PID=2826) to work on /opt/airflow/dags/demo.py
+[2024-07-15T04:48:30.367+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/demo.py for tasks to queue
+[2024-07-15T04:48:30.369+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:48:30.369+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/demo.py
+[2024-07-15T04:48:30.815+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/fuzzywuzzy/fuzz.py:11 UserWarning: Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning
+[2024-07-15T04:48:30.819+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/demo.py
+[2024-07-15T04:48:30.862+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:48:30.861+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-15T04:48:30.901+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:48:30.901+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline to 2024-07-15 00:00:00+00:00, run_after=2024-07-16 00:00:00+00:00
+[2024-07-15T04:48:30.924+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/demo.py took 0.563 seconds
+[2024-07-15T04:49:01.108+0000] {processor.py:161} INFO - Started process (PID=2888) to work on /opt/airflow/dags/demo.py
+[2024-07-15T04:49:01.109+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/demo.py for tasks to queue
+[2024-07-15T04:49:01.111+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:49:01.111+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/demo.py
+[2024-07-15T04:49:01.541+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/fuzzywuzzy/fuzz.py:11 UserWarning: Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning
+[2024-07-15T04:49:01.570+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/demo.py
+[2024-07-15T04:49:01.618+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:49:01.618+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-15T04:49:01.645+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:49:01.645+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline to 2024-07-15 00:00:00+00:00, run_after=2024-07-16 00:00:00+00:00
+[2024-07-15T04:49:01.671+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/demo.py took 0.569 seconds
+[2024-07-15T04:49:31.786+0000] {processor.py:161} INFO - Started process (PID=2955) to work on /opt/airflow/dags/demo.py
+[2024-07-15T04:49:31.789+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/demo.py for tasks to queue
+[2024-07-15T04:49:31.791+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:49:31.790+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/demo.py
+[2024-07-15T04:49:32.452+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/fuzzywuzzy/fuzz.py:11 UserWarning: Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning
+[2024-07-15T04:49:32.455+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/demo.py
+[2024-07-15T04:49:32.473+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:49:32.472+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-15T04:49:32.488+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:49:32.488+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline to 2024-07-15 00:00:00+00:00, run_after=2024-07-16 00:00:00+00:00
+[2024-07-15T04:49:32.508+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/demo.py took 0.728 seconds
+[2024-07-15T04:50:02.580+0000] {processor.py:161} INFO - Started process (PID=3017) to work on /opt/airflow/dags/demo.py
+[2024-07-15T04:50:02.581+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/demo.py for tasks to queue
+[2024-07-15T04:50:02.583+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:50:02.582+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/demo.py
+[2024-07-15T04:50:03.082+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/fuzzywuzzy/fuzz.py:11 UserWarning: Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning
+[2024-07-15T04:50:03.087+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/demo.py
+[2024-07-15T04:50:03.108+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:50:03.108+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-15T04:50:03.130+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:50:03.130+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline to 2024-07-15 00:00:00+00:00, run_after=2024-07-16 00:00:00+00:00
+[2024-07-15T04:50:03.153+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/demo.py took 0.579 seconds
+[2024-07-15T04:50:33.255+0000] {processor.py:161} INFO - Started process (PID=3081) to work on /opt/airflow/dags/demo.py
+[2024-07-15T04:50:33.256+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/demo.py for tasks to queue
+[2024-07-15T04:50:33.258+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:50:33.258+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/demo.py
+[2024-07-15T04:50:33.595+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/fuzzywuzzy/fuzz.py:11 UserWarning: Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning
+[2024-07-15T04:50:33.599+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/demo.py
+[2024-07-15T04:50:33.614+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:50:33.613+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-15T04:50:33.629+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:50:33.629+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline to 2024-07-15 00:00:00+00:00, run_after=2024-07-16 00:00:00+00:00
+[2024-07-15T04:50:33.648+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/demo.py took 0.400 seconds
+[2024-07-15T04:50:42.665+0000] {processor.py:161} INFO - Started process (PID=3102) to work on /opt/airflow/dags/demo.py
+[2024-07-15T04:50:42.665+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/demo.py for tasks to queue
+[2024-07-15T04:50:42.667+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:50:42.667+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/demo.py
+[2024-07-15T04:50:42.968+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/fuzzywuzzy/fuzz.py:11 UserWarning: Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning
+[2024-07-15T04:50:42.988+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:50:42.971+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/demo.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/demo.py", line 136, in <module>
+    t5 >> t6
+          ^^
+NameError: name 't6' is not defined
+[2024-07-15T04:50:42.989+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/demo.py
+[2024-07-15T04:50:43.028+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/demo.py took 0.371 seconds
+[2024-07-15T04:50:53.850+0000] {processor.py:161} INFO - Started process (PID=3117) to work on /opt/airflow/dags/demo.py
+[2024-07-15T04:50:53.852+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/demo.py for tasks to queue
+[2024-07-15T04:50:53.861+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:50:53.861+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/demo.py
+[2024-07-15T04:50:54.422+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/fuzzywuzzy/fuzz.py:11 UserWarning: Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning
+[2024-07-15T04:50:54.429+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:50:54.427+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/demo.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/demo.py", line 136, in <module>
+    t5 >> t6
+          ^^
+NameError: name 't6' is not defined
+[2024-07-15T04:50:54.430+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/demo.py
+[2024-07-15T04:50:54.464+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/demo.py took 0.629 seconds
+[2024-07-15T04:51:03.443+0000] {processor.py:161} INFO - Started process (PID=3142) to work on /opt/airflow/dags/demo.py
+[2024-07-15T04:51:03.444+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/demo.py for tasks to queue
+[2024-07-15T04:51:03.446+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:51:03.445+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/demo.py
+[2024-07-15T04:51:03.914+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/fuzzywuzzy/fuzz.py:11 UserWarning: Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning
+[2024-07-15T04:51:03.921+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:51:03.919+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/demo.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/demo.py", line 136, in <module>
+    t5 >> t6
+          ^^
+NameError: name 't6' is not defined
+[2024-07-15T04:51:03.922+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/demo.py
+[2024-07-15T04:51:03.948+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/demo.py took 0.511 seconds
+[2024-07-15T04:51:19.816+0000] {processor.py:161} INFO - Started process (PID=3174) to work on /opt/airflow/dags/demo.py
+[2024-07-15T04:51:19.818+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/demo.py for tasks to queue
+[2024-07-15T04:51:19.820+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:51:19.820+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/demo.py
+[2024-07-15T04:51:20.434+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/fuzzywuzzy/fuzz.py:11 UserWarning: Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning
+[2024-07-15T04:51:20.440+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:51:20.439+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/demo.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/demo.py", line 136, in <module>
+    t5 >> t6
+          ^^
+NameError: name 't6' is not defined
+[2024-07-15T04:51:20.441+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/demo.py
+[2024-07-15T04:51:20.472+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/demo.py took 0.665 seconds
+[2024-07-15T04:52:55.821+0000] {processor.py:161} INFO - Started process (PID=28) to work on /opt/airflow/dags/demo.py
+[2024-07-15T04:52:55.832+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/demo.py for tasks to queue
+[2024-07-15T04:52:55.834+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:52:55.833+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/demo.py
+[2024-07-15T04:52:56.814+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/fuzzywuzzy/fuzz.py:11 UserWarning: Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning
+[2024-07-15T04:52:56.825+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:52:56.824+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/demo.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/demo.py", line 136, in <module>
+    t5 >> t6
+          ^^
+NameError: name 't6' is not defined
+[2024-07-15T04:52:56.834+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/demo.py
+[2024-07-15T04:52:56.909+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/demo.py took 1.118 seconds
+[2024-07-15T04:53:27.090+0000] {processor.py:161} INFO - Started process (PID=90) to work on /opt/airflow/dags/demo.py
+[2024-07-15T04:53:27.091+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/demo.py for tasks to queue
+[2024-07-15T04:53:27.093+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:53:27.093+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/demo.py
+[2024-07-15T04:53:27.561+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/fuzzywuzzy/fuzz.py:11 UserWarning: Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning
+[2024-07-15T04:53:27.566+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:53:27.565+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/demo.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/demo.py", line 136, in <module>
+    t5 >> t6
+          ^^
+NameError: name 't6' is not defined
+[2024-07-15T04:53:27.567+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/demo.py
+[2024-07-15T04:53:27.588+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/demo.py took 0.506 seconds
+[2024-07-15T04:53:53.291+0000] {processor.py:161} INFO - Started process (PID=144) to work on /opt/airflow/dags/demo.py
+[2024-07-15T04:53:53.300+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/demo.py for tasks to queue
+[2024-07-15T04:53:53.302+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:53:53.301+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/demo.py
+[2024-07-15T04:53:53.934+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/fuzzywuzzy/fuzz.py:11 UserWarning: Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning
+[2024-07-15T04:53:53.938+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/demo.py
+[2024-07-15T04:53:54.096+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:53:54.095+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-15T04:53:54.115+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:53:54.115+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline to 2024-07-15 00:00:00+00:00, run_after=2024-07-16 00:00:00+00:00
+[2024-07-15T04:53:54.148+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/demo.py took 0.863 seconds
+[2024-07-15T04:53:54.652+0000] {processor.py:161} INFO - Started process (PID=146) to work on /opt/airflow/dags/demo.py
+[2024-07-15T04:53:54.653+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/demo.py for tasks to queue
+[2024-07-15T04:53:54.654+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:53:54.654+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/demo.py
+[2024-07-15T04:53:55.188+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/fuzzywuzzy/fuzz.py:11 UserWarning: Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning
+[2024-07-15T04:53:55.193+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/demo.py
+[2024-07-15T04:53:55.213+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:53:55.212+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-15T04:53:55.234+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:53:55.234+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline to 2024-07-15 00:00:00+00:00, run_after=2024-07-16 00:00:00+00:00
+[2024-07-15T04:53:55.261+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/demo.py took 0.614 seconds
+[2024-07-15T04:54:25.924+0000] {processor.py:161} INFO - Started process (PID=213) to work on /opt/airflow/dags/demo.py
+[2024-07-15T04:54:25.925+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/demo.py for tasks to queue
+[2024-07-15T04:54:25.927+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:54:25.926+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/demo.py
+[2024-07-15T04:54:26.656+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/fuzzywuzzy/fuzz.py:11 UserWarning: Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning
+[2024-07-15T04:54:26.660+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/demo.py
+[2024-07-15T04:54:26.678+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:54:26.678+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-15T04:54:26.733+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:54:26.733+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline to 2024-07-15 00:00:00+00:00, run_after=2024-07-16 00:00:00+00:00
+[2024-07-15T04:54:26.755+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/demo.py took 0.838 seconds
+[2024-07-15T04:54:57.550+0000] {processor.py:161} INFO - Started process (PID=273) to work on /opt/airflow/dags/demo.py
+[2024-07-15T04:54:57.551+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/demo.py for tasks to queue
+[2024-07-15T04:54:57.552+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:54:57.552+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/demo.py
+[2024-07-15T04:54:58.197+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/fuzzywuzzy/fuzz.py:11 UserWarning: Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning
+[2024-07-15T04:54:58.201+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/demo.py
+[2024-07-15T04:54:58.220+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:54:58.220+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-15T04:54:58.240+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:54:58.240+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline to 2024-07-15 00:00:00+00:00, run_after=2024-07-16 00:00:00+00:00
+[2024-07-15T04:54:58.262+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/demo.py took 0.719 seconds
+[2024-07-15T04:55:29.061+0000] {processor.py:161} INFO - Started process (PID=334) to work on /opt/airflow/dags/demo.py
+[2024-07-15T04:55:29.068+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/demo.py for tasks to queue
+[2024-07-15T04:55:29.070+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:55:29.070+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/demo.py
+[2024-07-15T04:55:29.799+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/fuzzywuzzy/fuzz.py:11 UserWarning: Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning
+[2024-07-15T04:55:29.803+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/demo.py
+[2024-07-15T04:55:29.822+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:55:29.822+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-15T04:55:29.844+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:55:29.844+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline to 2024-07-15 00:00:00+00:00, run_after=2024-07-16 00:00:00+00:00
+[2024-07-15T04:55:29.876+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/demo.py took 0.829 seconds
+[2024-07-15T04:56:00.803+0000] {processor.py:161} INFO - Started process (PID=396) to work on /opt/airflow/dags/demo.py
+[2024-07-15T04:56:00.812+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/demo.py for tasks to queue
+[2024-07-15T04:56:00.814+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:56:00.814+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/demo.py
+[2024-07-15T04:56:01.679+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/fuzzywuzzy/fuzz.py:11 UserWarning: Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning
+[2024-07-15T04:56:01.683+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/demo.py
+[2024-07-15T04:56:01.716+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:56:01.716+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-15T04:56:01.743+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:56:01.743+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline to 2024-07-15 00:00:00+00:00, run_after=2024-07-16 00:00:00+00:00
+[2024-07-15T04:56:01.768+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/demo.py took 0.971 seconds
+[2024-07-15T04:56:32.068+0000] {processor.py:161} INFO - Started process (PID=458) to work on /opt/airflow/dags/demo.py
+[2024-07-15T04:56:32.074+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/demo.py for tasks to queue
+[2024-07-15T04:56:32.082+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:56:32.082+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/demo.py
+[2024-07-15T04:56:33.306+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/fuzzywuzzy/fuzz.py:11 UserWarning: Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning
+[2024-07-15T04:56:33.310+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/demo.py
+[2024-07-15T04:56:33.338+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:56:33.337+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-15T04:56:33.383+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:56:33.383+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline to 2024-07-15 00:00:00+00:00, run_after=2024-07-16 00:00:00+00:00
+[2024-07-15T04:56:33.410+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/demo.py took 1.363 seconds
+[2024-07-15T04:57:04.263+0000] {processor.py:161} INFO - Started process (PID=522) to work on /opt/airflow/dags/demo.py
+[2024-07-15T04:57:04.264+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/demo.py for tasks to queue
+[2024-07-15T04:57:04.266+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:57:04.266+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/demo.py
+[2024-07-15T04:57:04.747+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/fuzzywuzzy/fuzz.py:11 UserWarning: Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning
+[2024-07-15T04:57:04.757+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/demo.py
+[2024-07-15T04:57:04.773+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:57:04.773+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-15T04:57:04.791+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:57:04.791+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline to 2024-07-15 00:00:00+00:00, run_after=2024-07-16 00:00:00+00:00
+[2024-07-15T04:57:04.829+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/demo.py took 0.572 seconds
+[2024-07-15T04:57:35.484+0000] {processor.py:161} INFO - Started process (PID=584) to work on /opt/airflow/dags/demo.py
+[2024-07-15T04:57:35.485+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/demo.py for tasks to queue
+[2024-07-15T04:57:35.487+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:57:35.487+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/demo.py
+[2024-07-15T04:57:35.951+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/fuzzywuzzy/fuzz.py:11 UserWarning: Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning
+[2024-07-15T04:57:35.954+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/demo.py
+[2024-07-15T04:57:35.968+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:57:35.967+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-15T04:57:35.983+0000] {logging_mixin.py:188} INFO - [2024-07-15T04:57:35.983+0000] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline to 2024-07-15 00:00:00+00:00, run_after=2024-07-16 00:00:00+00:00
+[2024-07-15T04:57:36.002+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/demo.py took 0.524 seconds

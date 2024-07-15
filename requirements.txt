@@ -1,0 +1,5 @@
+openpyxl
+fuzzywuzzy
+pandas
+python-Levenshtein
+sqlalchemy
