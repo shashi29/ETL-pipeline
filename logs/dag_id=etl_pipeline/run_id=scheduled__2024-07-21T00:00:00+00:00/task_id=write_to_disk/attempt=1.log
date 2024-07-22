@@ -1,0 +1,21 @@
+[2024-07-22T16:57:57.386+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-07-22T16:57:57.550+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_pipeline.write_to_disk scheduled__2024-07-21T00:00:00+00:00 [queued]>
+[2024-07-22T16:57:57.586+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_pipeline.write_to_disk scheduled__2024-07-21T00:00:00+00:00 [queued]>
+[2024-07-22T16:57:57.587+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2024-07-22T16:57:57.733+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): write_to_disk> on 2024-07-21 00:00:00+00:00
+[2024-07-22T16:57:57.770+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=235) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-07-22T16:57:57.792+0000] {standard_task_runner.py:63} INFO - Started process 249 to run task
+[2024-07-22T16:57:57.806+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'etl_pipeline', 'write_to_disk', 'scheduled__2024-07-21T00:00:00+00:00', '--job-id', '84', '--raw', '--subdir', 'DAGS_FOLDER/demo.py', '--cfg-path', '/tmp/tmpl9xqlzhm']
+[2024-07-22T16:57:57.827+0000] {standard_task_runner.py:91} INFO - Job 84: Subtask write_to_disk
+[2024-07-22T16:57:58.084+0000] {task_command.py:426} INFO - Running <TaskInstance: etl_pipeline.write_to_disk scheduled__2024-07-21T00:00:00+00:00 [running]> on host ada6cb1e64b1
+[2024-07-22T16:57:58.630+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='your_email@example.com' AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='etl_pipeline' AIRFLOW_CTX_TASK_ID='write_to_disk' AIRFLOW_CTX_EXECUTION_DATE='2024-07-21T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-07-21T00:00:00+00:00'
+[2024-07-22T16:57:58.633+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-07-22T17:00:55.112+0000] {demo.py:65} INFO - Merged Data Written to Disk
+[2024-07-22T17:00:56.824+0000] {python.py:237} INFO - Done. Returned value was: None
+[2024-07-22T17:00:56.825+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-07-22T17:00:56.864+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=etl_pipeline, task_id=write_to_disk, run_id=scheduled__2024-07-21T00:00:00+00:00, execution_date=20240721T000000, start_date=20240722T165757, end_date=20240722T170056
+[2024-07-22T17:00:56.949+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-07-22T17:00:56.994+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-07-22T17:00:57.012+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

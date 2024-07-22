@@ -3,4 +3,4 @@ fuzzywuzzy
 pandas
 python-Levenshtein
 sqlalchemy
-unittest
+pyspark==3.4.1
