@@ -845,3 +845,14 @@ ModuleNotFoundError: No module named 'fuzzymatcher'
 [2024-07-22T18:14:28.256+0000] {processor.py:161} INFO - Started process (PID=1340) to work on /opt/airflow/dags/spark_demo.py
 [2024-07-22T18:14:28.257+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spark_demo.py for tasks to queue
 [2024-07-22T18:14:28.260+0000] {logging_mixin.py:188} INFO - [2024-07-22T18:14:28.260+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/spark_demo.py
+[2024-07-22T18:14:34.239+0000] {processor.py:840} INFO - DAG(s) 'spark_etl_pipeline' retrieved from /opt/airflow/dags/spark_demo.py
+[2024-07-22T18:14:34.269+0000] {logging_mixin.py:188} INFO - [2024-07-22T18:14:34.268+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-22T18:14:34.298+0000] {logging_mixin.py:188} INFO - [2024-07-22T18:14:34.298+0000] {dag.py:3947} INFO - Setting next_dagrun for spark_etl_pipeline to 2024-07-22 00:00:00+00:00, run_after=2024-07-23 00:00:00+00:00
+[2024-07-22T18:14:34.324+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spark_demo.py took 6.078 seconds
+[2024-07-22T18:15:04.930+0000] {processor.py:161} INFO - Started process (PID=1531) to work on /opt/airflow/dags/spark_demo.py
+[2024-07-22T18:15:04.931+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spark_demo.py for tasks to queue
+[2024-07-22T18:15:04.934+0000] {logging_mixin.py:188} INFO - [2024-07-22T18:15:04.934+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/spark_demo.py
+[2024-07-22T18:15:11.120+0000] {processor.py:840} INFO - DAG(s) 'spark_etl_pipeline' retrieved from /opt/airflow/dags/spark_demo.py
+[2024-07-22T18:15:11.154+0000] {logging_mixin.py:188} INFO - [2024-07-22T18:15:11.153+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-22T18:15:11.192+0000] {logging_mixin.py:188} INFO - [2024-07-22T18:15:11.191+0000] {dag.py:3947} INFO - Setting next_dagrun for spark_etl_pipeline to 2024-07-22 00:00:00+00:00, run_after=2024-07-23 00:00:00+00:00
+[2024-07-22T18:15:11.227+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spark_demo.py took 6.307 seconds

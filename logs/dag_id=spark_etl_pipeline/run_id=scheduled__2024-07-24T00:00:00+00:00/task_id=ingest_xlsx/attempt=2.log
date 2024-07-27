@@ -1,0 +1,44 @@
+[2024-07-25T12:24:29.133+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-07-25T12:24:29.243+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: spark_etl_pipeline.ingest_xlsx scheduled__2024-07-24T00:00:00+00:00 [queued]>
+[2024-07-25T12:24:29.272+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: spark_etl_pipeline.ingest_xlsx scheduled__2024-07-24T00:00:00+00:00 [queued]>
+[2024-07-25T12:24:29.273+0000] {taskinstance.py:2306} INFO - Starting attempt 2 of 2
+[2024-07-25T12:24:29.317+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): ingest_xlsx> on 2024-07-24 00:00:00+00:00
+[2024-07-25T12:24:29.337+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:62: DeprecationWarning: This process (pid=61) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-07-25T12:24:29.340+0000] {standard_task_runner.py:64} INFO - Started process 789 to run task
+[2024-07-25T12:24:29.337+0000] {clientserver.py:543} INFO - Closing down clientserver connection
+[2024-07-25T12:24:29.383+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'spark_etl_pipeline', 'ingest_xlsx', 'scheduled__2024-07-24T00:00:00+00:00', '--job-id', '123', '--raw', '--subdir', 'DAGS_FOLDER/spark_demo.py', '--cfg-path', '/tmp/tmp2bh9f10a']
+[2024-07-25T12:24:29.384+0000] {standard_task_runner.py:91} INFO - Job 123: Subtask ingest_xlsx
+[2024-07-25T12:24:29.565+0000] {task_command.py:426} INFO - Running <TaskInstance: spark_etl_pipeline.ingest_xlsx scheduled__2024-07-24T00:00:00+00:00 [running]> on host 1671a0defda5
+[2024-07-25T12:24:29.858+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='your_email@example.com' AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='spark_etl_pipeline' AIRFLOW_CTX_TASK_ID='ingest_xlsx' AIRFLOW_CTX_EXECUTION_DATE='2024-07-24T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-07-24T00:00:00+00:00'
+[2024-07-25T12:24:29.860+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-07-25T12:24:52.770+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-07-25T12:24:52.771+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/spark_demo.py", line 25, in ingest_xlsx
+    df_xlsx = df_xlsx.withColumn('source', 'Global Nuclear Data')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/sql/dataframe.py", line 4785, in withColumn
+    raise PySparkTypeError(
+pyspark.errors.exceptions.base.PySparkTypeError: [NOT_COLUMN] Argument `col` should be a Column, got str.
+[2024-07-25T12:24:52.793+0000] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=spark_etl_pipeline, task_id=ingest_xlsx, run_id=scheduled__2024-07-24T00:00:00+00:00, execution_date=20240724T000000, start_date=20240725T122429, end_date=20240725T122452
+[2024-07-25T12:24:52.845+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 123 for task ingest_xlsx ([NOT_COLUMN] Argument `col` should be a Column, got str.; 789)
+[2024-07-25T12:24:52.966+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 1
+[2024-07-25T12:24:53.032+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-07-25T12:24:53.048+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

@@ -513,3 +513,13 @@
 [2024-07-22T18:14:27.181+0000] {logging_mixin.py:188} INFO - [2024-07-22T18:14:27.180+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
 [2024-07-22T18:14:27.183+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
 [2024-07-22T18:14:27.208+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx took 0.050 seconds
+[2024-07-22T18:14:57.607+0000] {processor.py:161} INFO - Started process (PID=1524) to work on /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-22T18:14:57.614+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx for tasks to queue
+[2024-07-22T18:14:57.621+0000] {logging_mixin.py:188} INFO - [2024-07-22T18:14:57.620+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-22T18:14:57.625+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-22T18:14:57.652+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx took 0.058 seconds
+[2024-07-22T18:15:27.977+0000] {processor.py:161} INFO - Started process (PID=1709) to work on /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-22T18:15:27.980+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx for tasks to queue
+[2024-07-22T18:15:27.984+0000] {logging_mixin.py:188} INFO - [2024-07-22T18:15:27.983+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-22T18:15:27.986+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx
+[2024-07-22T18:15:28.014+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Global-Nuclear-Power-Tracker-October-2023.xlsx took 0.051 seconds
